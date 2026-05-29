@@ -7,7 +7,7 @@
   elements:
   - title: Average Sales by Category
     name: Average Sales by Category
-    model: Sales_Dashboard_V3_Demo
+    model: Sales_Dashboard_V3_Demo_May29
     explore: orders_super
     type: looker_column
     fields: [sales_super.Category, avg_of_Sales]
@@ -66,7 +66,7 @@
     height: 7
   - title: Total Sales by Sub Category
     name: Total Sales by Sub Category
-    model: Sales_Dashboard_V3_Demo
+    model: Sales_Dashboard_V3_Demo_May29
     explore: orders_super
     type: looker_column
     fields: [sum_of_Sales, sales_super.Sub_Category]
