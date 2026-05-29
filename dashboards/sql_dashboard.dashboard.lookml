@@ -7,7 +7,7 @@
   elements:
   - title: Profit by Order Date
     name: Profit by Order Date
-    model: Sales_Dashboard_V3_Demo
+    model: Sales_Dashboard_V3_Demo_May29
     explore: Custom_SQL_Query
     type: looker_line
     fields: [Custom_SQL_Query.order_date, sum_of_profit]
@@ -59,7 +59,7 @@
       measure: sum_of_profit
   - title: Sales by Order Date
     name: Sales by Order Date
-    model: Sales_Dashboard_V3_Demo
+    model: Sales_Dashboard_V3_Demo_May29
     explore: Custom_SQL_Query
     type: looker_line
     fields: [Custom_SQL_Query.order_date, sum_of_sales]
