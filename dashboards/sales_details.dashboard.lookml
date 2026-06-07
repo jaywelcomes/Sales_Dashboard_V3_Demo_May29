@@ -7,7 +7,7 @@
   elements:
   - title: Sales Details
     name: Sales Details
-    model: Sales_Dashboard_V3_Demo
+    model: Sales_Dashboard_V3_Demo_May29
     explore: Custom_SQL_Query
     type: looker_grid
     fields: [None.Profit_Ratio, None.Category_Group, Custom_SQL_Query.category, sum_of_profit,
